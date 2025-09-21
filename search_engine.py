@@ -50,10 +50,10 @@ class SearchEngineIndex:
             json.dump(data, f)
         print(f"Index saved to {path}")
 
-# ------------------ Usage ------------------ #
+# ------------------ Usage ---------------- #
 if __name__ == "__main__":
     engine = SearchEngineIndex()
     engine.break_into_paragraphs("corpus")   # folder with .txt files
     engine.build_inverted_index()
     engine.save_index("index.json")
-    #DONe
+    
