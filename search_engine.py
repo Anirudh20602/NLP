@@ -56,3 +56,4 @@ if __name__ == "__main__":
     engine.break_into_paragraphs("corpus")   # folder with .txt files
     engine.build_inverted_index()
     engine.save_index("index.json")
+    #DONe
